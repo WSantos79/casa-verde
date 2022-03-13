@@ -11,9 +11,15 @@
     "react-scripts": "5.0.0",
     "styled-components": "^5.3.3"    
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WSantos79/casa-verde"
+  },
+  "author": "Wellington Santos - WSantos79",
+  "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=False && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
