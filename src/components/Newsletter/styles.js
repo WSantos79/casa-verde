@@ -47,6 +47,8 @@ export const Botao = styled.button`
 
   font-size: 16px;
   line-height: 20px;
+  font-weight: 400;  
+  letter-spacing: 1.5px;
 
   border: none;
 
