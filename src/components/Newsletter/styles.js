@@ -21,7 +21,8 @@ export const TituloP = styled.p`
 `;
 
 export const Paragrafo = styled.p`
-  font-size: 16px;
+  margin-top: 15px;
+  font-size: 20px;
   opacity: 0.5;
 `;
 
