@@ -18,12 +18,10 @@ export const Lista = styled.ul`
 `
 export const Item = styled.li`
   margin-right: 13px;
-
-  animation-timing-function: ease-in-out;
-  animation-duration: 300ms;
-
-  z-index: 3;
+  z-index: 3; 
+   
 `
+
 export const A = styled.a`  
   font-size: 16px;
   font-style: normal;  
@@ -33,5 +31,16 @@ export const A = styled.a`
 
   text-decoration: none;
   color: #202020;
+
+  animation-timing-function: ease-in-out;
+  animation-duration: 300ms;
+ 
+  
+  &:hover {
+    font-size: 17px;
+    text-decoration: underline;
+  }
+
+  
 
 `

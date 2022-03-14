@@ -28,13 +28,14 @@ export const Paragrafo = styled.p`
 
 export const Assinar = styled.div`
     margin-top: 30px;
+    background: #FFFFFF;    
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 `
 
 export const Input = styled.input`
   height: 60px;
   width: 391px;
-
-  border: none;
+  border: none;   
 
   background: 1px url(${Email});
   background-repeat: no-repeat;
@@ -52,9 +53,9 @@ export const Botao = styled.button`
 
   border: none;
 
-  height: 60px;
+  height: 63px;
   width: 194px;
-  color: #ffffff;
+  color: #FFFFFF;
 
   &:hover {
     cursor: pointer;
@@ -64,10 +65,14 @@ export const ImgPlanta = styled.img`
   width: 587px;
 
   position: absolute;
-  left: 700px;
+  right: 300px;
   top: 13px;
   
   z-index: 2;
+
+  @media (min-width: 481px) and (max-width: 1280px) {
+    right: 200px;
+  }
 `;
 
 export const Fundo = styled.img`
@@ -79,4 +84,9 @@ export const Fundo = styled.img`
   top: -260px;
 
   z-index: 1;
+
+  @media (min-width: 481px) and (max-width: 1280px) {
+    width: 690px;
+    height: 1000px;
+  }
 `;

@@ -12,13 +12,13 @@ export default () => {
       <nav>
           <Lista>
               <Item><A href="#">Como fazer</A></Item>
-              <Item>/</Item>
+              <Item><strong>/</strong></Item>
               <Item><A href="#">Ofertas</A></Item>
-              <Item>/</Item>
+              <Item><strong>/</strong></Item>
               <Item><A href="#">Depoimentos</A></Item>
-              <Item>/</Item>
+              <Item><strong>/</strong></Item>
               <Item><A href="#">Vídeos</A></Item>
-              <Item>/</Item>
+              <Item><strong>/</strong></Item>
               <Item><A href="#">Meu carrinho</A></Item>          
           </Lista>
         </nav>  

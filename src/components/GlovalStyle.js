@@ -4,6 +4,7 @@ export const GlobalStyle = createGlobalStyle`
 
 * {
 
+  overflow: hidden;
   margin: 0;
   padding: 0;
   outline: 0;
@@ -15,7 +16,8 @@ body {
   margin-right: 240px;
   font-family: Montserrat;
   font-weight: 400;
-  background: #f6f6f6;
+  background: rgb(170, 170, 170, 0.10);
+  
   
 }
 
